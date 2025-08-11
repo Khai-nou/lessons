@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма заявки на работу</title>
+	<link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1>Форма заявки на работу в зоопарке</h1>
+	<p><i>Пожалуйста, заполните форму. Обязательные поля помечены 
+		<span class="essential_marker">*</span></i></p>
+	
+	<form class="application_form">
+		
+		<fieldset class="fieldset">
+			<legend>Контактная информация</legend>
+			<label><p class="input_name">Имя <span class="essential_marker">*</span></p>
+				<input class="input_field" type="text" name="applicant_name" autofocus required>
+			</label><br>
+			<label><p class="input_name">Телефон</p>
+				<input class="input_field" type="tel" name="applicant_tel">
+			</label><br>
+			<label><p class="input_name">Email <span class="essential_marker">*</span></p>
+				<input class="input_field" type="email" name="applicant_email" required>
+			</label>
+		</fieldset>
+
+		<fieldset class="fieldset">
+			<legend>Персональная информация</legend>
+			<label><p class="input_name">Возраст <span class="essential_marker">*</span></p>
+				<input class="input_field" type="number" name="applicant_age" min="14" required>
+			</label><br>
+			<p class="input_name">Пол</p>
+			<select class="list_field" name="applicant_gender">
+				<option value="female">Женщина</option>
+				<option value="male">Мужчина</option>
+				<option value="other">Другое</option>
+				<option value="not_specified">Предпочитаю не указывать</option>
+			</select><br>
+			<label><p class="input_name">Перечислите личные качества</p>
+				<textarea class="textarea_field" name="applicant_qualities"></textarea></label>
+		</fieldset>
+
+		<fieldset class="fieldset">
+			<legend>Выберите ваших любимых животных</legend>
+			<div class="checkbox_container">
+				<label><input type="checkbox" name="applicant_pref_animals">Зебра</label></div>
+			<div class="checkbox_container">
+				<label><input type="checkbox" name="applicant_pref_animals">Кошак</label></div>
+			<div class="checkbox_container">
+				<label><input type="checkbox" name="applicant_pref_animals">Анаконда</label></div>
+			<div class="checkbox_container">
+				<label><input type="checkbox" name="applicant_pref_animals">Человек</label></div>
+			<div class="checkbox_container">
+				<label><input type="checkbox" name="applicant_pref_animals">Слон</label></div>
+			<div class="checkbox_container">
+				<label><input type="checkbox" name="applicant_pref_animals">Антилопа</label></div>
+			<div class="checkbox_container">
+				<label><input type="checkbox" name="applicant_pref_animals">Голубь</label></div>
+			<div class="checkbox_container">
+				<label><input type="checkbox" name="applicant_pref_animals">Краб</label></div>
+		</fieldset>
+
+		<input class="submit_button" type="submit" value="Отправить информацию">
+
+	</form>
+</body>
+</html>
