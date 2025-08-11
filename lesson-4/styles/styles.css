@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.content {
+  max-width: 1440px;
+  margin: 30px auto 0 auto;
+  background-color: #F7F9FA;
+  padding: 79px 138px 80px 138px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.header__headline {
+  display: inline;
+  font-size: 42px;
+  letter-spacing: 0.2px;
+  font-family: "Fraunces", serif;
+  font-weight: 400;
+  margin-left: 18px;
+  color: #1F1F1F;
+}
+.header__all_posts {
+  margin-right: 58px;
+  margin-top: 6px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  color: #0070A0;
+  text-decoration: none;
+}
+.header__all_posts:visited {
+  color: #0070A0;	
+  text-decoration: none;
+}
+.articles {
+  text-align: center;
+}
+.article_preview {
+  width: 355px;
+  display: inline-block;
+  background-color: #FFFFFF;
+  vertical-align: top;
+  margin: 14px;
+}
+.article_preview__image {
+  width: 100%;
+}
+.article_topic_container {
+  text-align: left;
+  margin: 22px 24px 12px 24px;
+}
+.article_preview__topic {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: #2C90C9;
+  padding: 4px 18px;
+  background-color: #E6F7FF;
+  display: inline;
+  letter-spacing: 0.4px;
+}
+.article_preview__header {
+  text-align: left;
+  font-family: "Fraunces", serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31.25px;
+  margin: 0 24px;
+  color: #1F1F1F;
+  letter-spacing: 0.2px;        
+}
+.article_preview__annotation {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+  margin: 11px 24px 18px 24px;
+  color: #1F1F1F;
+  letter-spacing: 0.2px;        
+}
+.article_preview__date {
+  display: block;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin: 0 24px 32px 24px;
+  color: #1F1F1F;
+  letter-spacing: 0.2px;        
+}
