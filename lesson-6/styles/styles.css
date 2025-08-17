@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/gothampro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/gothampro_bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.content {
+  font-family: "Gotham Pro", sans-serif;
+  width: 1440px;
+  height: 592px;
+  background-color: #D9D9D9;
+  margin: 40px auto;
+  text-align: center;
+}
+.header {
+  font-size: 70px;
+  font-weight: 700;
+  padding: 84px 0 8px;
+}
+.subheader {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.slogan {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  margin: 16px auto 38px auto;
+}
+.link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+  padding: 18px 35px 18px 57px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 0 3px 4px #0000002B;
+}
+.emphasis_name {
+  font-weight: 700;
+  color: #FED402;
+}
+.lightning_img {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+}
+.company_description {
+  margin: 156px auto 0;
+  width: 542px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 22px #00000017;
+  border-radius: 20px;
+  position: relative;
+}
+.company_description__paragraph {
+  display: inline-block;
+  width: 174px;
+  vertical-align: top;
+  text-align: left;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 30px 30px 30px 60px;
+}
+.vert_line_img {
+  position: absolute;
+  top: 1px;
+}
+.emphasis {
+  font-weight: 700;
+  text-decoration: underline #FED402 1.5px;
+  text-underline-offset: 3px;
+}
+.descr_icon_1 {
+  position: absolute;
+  top: 34px;
+  left: 30px;
+}
+.descr_icon_2 {
+  position: absolute;
+  top: 34px;
+  left: 301px;
+}
