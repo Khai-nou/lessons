@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 10px auto;
+  flex-wrap: wrap;
+  max-width: 1500px;
+}
+.input_section {
+  position: relative;
+}
+.delivery_terms_section {
+  width: 605px;
+}
+.header {
+  font: 500 50px/120% 'Roboto', sans-serif;
+  margin-bottom: 55px;
+  color: #26292E;
+}
+.input_container {
+  font: 500 20px/120% 'Montserrat', sans-serif;
+  color: #26292E;
+}
+.input_field {
+  display: block;
+  margin-top: 9px;
+  margin-bottom: 19px;
+  width: 605px;
+  box-shadow: 0 0 10px #26292E40;
+  padding: 16px 19px;
+}
+.input_field::placeholder {
+  font: 500 16px/120% 'Montserrat', sans-serif;
+  color: #C4C4C4;
+}
+.textarea {
+  height: 145px;
+}
+.submit_button {
+  font: 500 20px/120% 'Roboto', sans-serif;
+  color: #FFFFFF;
+  padding: 17px 39px;
+  background-color: #408858;
+}
+.radio {
+  font: 400 30px 'Roboto', sans-serif;
+  display: flex;
+  gap: 11px;
+  color: #414141;
+  margin-top: 32px;
+  margin-bottom: 9px;
+}
+.delivery_description {
+  font: 400 20px/140% 'Roboto', sans-serif;
+  color: #414141;
+  margin: 6px 0;
+  width: 550px;
+}
+.phone_link {
+  text-decoration: none;
+  color: #414141;
+}
+@media (max-width: 1280px) {
+  .submit_button {
+    position: absolute;
+    top: 1600px;
+  }
+  .form {
+    width: 610px;
+  }
+  .delivery_terms_section {
+    padding-bottom: 140px;
+  }
+}
+@media (max-width: 660px) {
+  .input_field {
+    width: 440px;
+  }
+  .delivery_description {
+    width: 440px;
+  }
+  .submit_button {
+    top: 1740px;
+  }
+  .form {
+    width: 440px;
+  }
+}
