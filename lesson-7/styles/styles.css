@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Semibold.woff') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.content {
+  margin: 50px auto;
+  text-align: center;
+}
+.cards_container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  display: inline;
+  width: 440px;
+  text-align: center;
+  box-shadow: 0 0 4px #C7C7C7;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0 0 25px #C7C7C7;
+}
+.card__image1 {
+  height: 100px;
+  margin: 23px auto;
+}
+.card__image2 {
+  height: 66px;
+  margin: 40px auto;
+}
+.card__header, .card__price {
+  margin: 5px auto 24px;
+  font: 600 22px/110% 'Gilroy', sans-serif;
+}
+.card__paragraph {
+  display: inline-block;
+  max-width: 380px;
+  min-height: 68px;
+  font: 400 14px/120% 'Gilroy', sans-serif;
+  letter-spacing: .02em;
+}
+.card__price {
+  margin: 18px auto 44px;
+}
+.card__order {
+  display: inline-block;
+  padding: 25px 61px;
+  margin-bottom: 40px;
+  background-color: #E31E24;
+  text-decoration: none;
+  font: 600 18px/110% 'Gilroy', sans-serif;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+.pages_navigation {
+  margin-top: 99px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pages_container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.pages__active, .pages__inactive, .pages__forward, .pages__backward{
+  font: 600 18px 'Open Sans', sans-serif;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  padding-top: 12px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #C7C7C7;
+  color: black;
+  box-shadow: 0 0 4px #C7C7C7;
+  position: relative;
+}
+.pages__active, .pages__forward {
+  background-color: #E31E24;
+  color: white;
+}
+.arrow_backward {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+.arrow_forward {
+  position: absolute;
+  top: 17px;
+  left: 22px;
+}
+.pages__forward, .pages__backward {
+  min-width: 50px;
+}
